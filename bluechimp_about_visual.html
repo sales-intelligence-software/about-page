@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About BlueChimp | The Team Behind Warm B2B Leads</title>
+<meta name="description" content="Meet the team behind BlueChimp. Learn who we are, why we built a platform that pairs buyer intent with your network, and how we handle your data.">
+<style>
+:root{
+  --navy:#07172e;--navy2:#0b2342;--blue:#2563eb;--cyan:#25c8e8;
+  --ink:#0d1b2f;--muted:#657287;--line:#dce5ef;--soft:#f5f8fc;
+  --white:#fff;--green:#0f9f7f;--shadow:0 18px 55px rgba(7,23,46,.09)
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);line-height:1.65;background:#fff}
+a{text-decoration:none;color:inherit}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:23px;font-weight:900;letter-spacing:-.8px}.logo span{color:var(--blue)}
+.navlinks{display:flex;align-items:center;gap:27px;font-size:14px;color:#536176}.navlinks .active{color:var(--blue);font-weight:800}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:10px;font-size:14px;font-weight:800;border:1px solid transparent;gap:8px}
+.btn.primary{background:var(--blue);color:#fff;box-shadow:0 10px 25px rgba(37,99,235,.22)}
+.btn.light{background:#fff;color:var(--navy)}.btn.outline{border-color:#d7e0eb;background:#fff}.btn.darkoutline{border-color:rgba(255,255,255,.25);color:#fff}
+.hero{position:relative;overflow:hidden;background:var(--navy);color:#fff}
+.hero:before{content:"";position:absolute;width:640px;height:640px;border-radius:50%;right:-200px;top:-290px;background:radial-gradient(circle,rgba(37,99,235,.35),rgba(32,199,233,.06) 45%,transparent 70%)}
+.hero:after{content:"";position:absolute;width:380px;height:380px;border-radius:50%;left:-190px;bottom:-220px;border:1px solid rgba(255,255,255,.07)}
+.hero-inner{min-height:590px;display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:75px;padding:80px 0}
+.eyebrow{font-size:12px;letter-spacing:.13em;font-weight:900;color:var(--cyan);text-transform:uppercase}
+h1{font-size:67px;line-height:1;letter-spacing:-3px;margin:14px 0 22px}
+.hero p{font-size:19px;color:#bdcadd;max-width:680px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.network{position:relative;height:370px}
+.node{position:absolute;border-radius:16px;background:#0e2b50;border:1px solid rgba(255,255,255,.11);box-shadow:0 18px 35px rgba(0,0,0,.18);padding:16px;color:#fff}
+.node.main{width:190px;height:108px;left:50%;top:50%;transform:translate(-50%,-50%);text-align:center;display:grid;place-items:center;background:linear-gradient(135deg,#153f72,#0e2b50)}
+.node.main b{font-size:18px}.node.small{width:135px;font-size:12px;color:#b9c9dc}.n1{left:0;top:35px}.n2{right:5px;top:15px}.n3{left:15px;bottom:30px}.n4{right:0;bottom:45px}
+.network svg{position:absolute;inset:0;width:100%;height:100%}.network line{stroke:#2d5c8c;stroke-width:1.4;stroke-dasharray:5 6}
+section{padding:92px 0}.section-head{max-width:730px;margin-bottom:42px}.kicker{font-size:12px;text-transform:uppercase;letter-spacing:.11em;color:var(--blue);font-weight:900}
+h2{font-size:41px;line-height:1.12;letter-spacing:-1.6px;margin:9px 0 15px}.sub{font-size:17px;color:var(--muted)}
+.who-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:70px;align-items:start}
+.copy p{color:#536176;font-size:17px;margin-top:0;margin-bottom:18px}
+.facts{border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--shadow);background:#fff}
+.facts-head{padding:20px 24px;background:var(--navy);color:#fff;font-weight:850}.fact{display:grid;grid-template-columns:125px 1fr;gap:15px;padding:13px 22px;border-bottom:1px solid #edf1f5;font-size:14px}.fact:last-child{border:0}.fact span:first-child{color:#8490a0}.placeholder{color:#b45309;background:#fff7ed;border-radius:5px;padding:1px 5px}
+.mission{background:var(--soft);text-align:center}.mission .section-head{margin-left:auto;margin-right:auto}.mission-quote{font-size:29px;line-height:1.35;font-weight:750;max-width:850px;margin:0 auto 45px;letter-spacing:-.5px}
+.value-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;text-align:left}.value{background:#fff;border:1px solid var(--line);border-radius:17px;padding:28px}.value .num{font-size:12px;color:var(--blue);font-weight:900;margin-bottom:20px}.value h3{margin:0 0 8px;font-size:20px}.value p{margin:0;color:var(--muted);font-size:14px}
+.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.product{border:1px solid var(--line);border-radius:17px;padding:25px;min-height:220px;display:flex;flex-direction:column;transition:.2s;background:#fff}.product:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#c8d7e8}.picon{width:44px;height:44px;border-radius:11px;display:grid;place-items:center;background:#edf4ff;color:var(--blue);font-weight:900;margin-bottom:20px}.product h3{font-size:19px;margin:0 0 8px}.product p{color:var(--muted);font-size:14px;margin:0 0 20px}.product a{margin-top:auto;color:var(--blue);font-size:13px;font-weight:850}
+.story{background:var(--navy);color:#fff}.story-grid{display:grid;grid-template-columns:.78fr 1.22fr;gap:70px;align-items:center}
+.portrait{aspect-ratio:4/5;max-width:390px;border-radius:24px;background:linear-gradient(145deg,#163c69,#0b2342);border:1px solid rgba(255,255,255,.13);display:grid;place-items:center;position:relative;overflow:hidden}
+.portrait:before{content:"";width:160px;height:160px;border-radius:50%;background:#244f7d;position:absolute;top:60px}.portrait:after{content:"";width:270px;height:240px;border-radius:140px 140px 0 0;background:#173a60;position:absolute;bottom:-40px}.portrait span{position:absolute;z-index:2;bottom:18px;font-size:12px;color:#aebed0;background:rgba(7,23,46,.8);padding:7px 10px;border-radius:7px}
+.story h2{font-size:45px}.story p{color:#b9c7d8;font-size:16px}.textlink{color:var(--cyan);font-weight:850;font-size:14px}
+.leader-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}.leader{display:grid;grid-template-columns:160px 1fr;gap:25px;border:1px solid var(--line);border-radius:18px;padding:22px}.avatar{min-height:190px;border-radius:14px;background:linear-gradient(145deg,#e8eef6,#d9e4ef);display:grid;place-items:center;color:#7a899a;font-size:12px;text-align:center;padding:12px}.leader h3{margin:7px 0 0}.role{color:var(--blue);font-weight:800;font-size:13px}.leader p{font-size:14px;color:var(--muted)}
+.data{background:linear-gradient(135deg,#f6faff,#eef6ff)}.data-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.source-cloud{display:flex;flex-wrap:wrap;gap:11px}.source-pill{padding:14px 18px;border-radius:11px;background:#fff;border:1px solid var(--line);font-weight:850;box-shadow:0 8px 22px rgba(7,23,46,.05)}
+.formula{margin-top:24px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13px}.formula b{background:var(--navy);color:#fff;padding:9px 12px;border-radius:8px}.formula i{font-style:normal;color:#91a0b0}
+.security-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.security-card{border:1px solid var(--line);border-radius:17px;padding:27px}.security-card .shield{width:45px;height:45px;border-radius:50%;background:#eaf8f4;color:var(--green);display:grid;place-items:center;font-weight:900;margin-bottom:18px}.security-card h3{margin:0 0 9px}.security-card p{color:var(--muted);font-size:14px}.security-card a{color:var(--blue);font-size:13px;font-weight:850}
+.recognition{background:var(--soft);text-align:center}.logo-row{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:32px}.brand{min-width:150px;padding:18px 24px;background:#fff;border:1px solid var(--line);border-radius:12px;font-weight:900;color:#536176}
+.brand.partner{border-color:#cbdcf1;color:var(--navy)}
+.cta{padding:80px 0}.cta-box{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--navy),#123d70);color:#fff;border-radius:25px;padding:60px;display:flex;align-items:center;justify-content:space-between;gap:35px}.cta-box:after{content:"";position:absolute;width:280px;height:280px;border-radius:50%;border:1px solid rgba(255,255,255,.1);right:-85px;top:-140px}.cta-box h2{margin:0 0 9px}.cta-box p{margin:0;color:#bdcadd}
+footer{border-top:1px solid var(--line);padding:32px 0;color:#7b8795;font-size:13px}.footer{display:flex;justify-content:space-between;gap:20px}
+@media(max-width:900px){
+.hero-inner,.who-grid,.story-grid,.data-grid{grid-template-columns:1fr}.hero-inner{padding:60px 0 80px}.network{height:320px}.value-grid,.product-grid,.security-grid{grid-template-columns:1fr 1fr}.leader-grid{grid-template-columns:1fr}h1{font-size:52px}
+}
+@media(max-width:620px){
+.wrap{width:min(100% - 28px,1160px)}.navlinks a:not(.btn){display:none}.navlinks .btn.outline{display:none}.network{display:none}.hero-inner{min-height:500px}.value-grid,.product-grid,.security-grid{grid-template-columns:1fr}.leader{grid-template-columns:1fr}.avatar{min-height:220px}.fact{grid-template-columns:100px 1fr}.cta-box{flex-direction:column;align-items:flex-start;padding:38px 28px}h1{font-size:42px}h2,.story h2{font-size:33px}section{padding:68px 0}.footer{flex-direction:column}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="wrap nav">
+  <div class="logo">blue<span>chimp</span></div>
+  <nav class="navlinks">
+    <a href="/how-it-works">How It Works</a>
+    <a class="active" href="/about">About</a>
+    <a href="/pricing">Pricing</a>
+    <a href="/security">Security</a>
+    <a class="btn outline" href="/contact">Contact</a>
+    <a class="btn primary" href="/demo-signup">Book a Demo →</a>
+  </nav>
+</div>
+</header>
+
+<main>
+<section class="hero">
+<div class="wrap hero-inner">
+  <div>
+    <div class="eyebrow">About Us</div>
+    <h1>About<br>BlueChimp</h1>
+    <p>BlueChimp helps B2B teams find warm paths into accounts that are already looking to buy. We combine buyer intent data with your real LinkedIn network so every first conversation starts with trust, not a cold message.</p>
+    <div class="actions"><a class="btn primary" href="/demo-signup">Book a Demo →</a><a class="btn darkoutline" href="/founders-story">Read the Founder's Story</a></div>
+  </div>
+  <div class="network">
+    <svg viewBox="0 0 500 370"><line x1="250" y1="185" x2="80" y2="78"/><line x1="250" y1="185" x2="420" y2="65"/><line x1="250" y1="185" x2="92" y2="300"/><line x1="250" y1="185" x2="420" y2="290"/></svg>
+    <div class="node main"><div><b>Warm Path Found</b><br><span style="font-size:12px;color:#9fb4cc">Intent + Relationships</span></div></div>
+    <div class="node small n1"><b>Buying intent</b><br>Account surging</div>
+    <div class="node small n2"><b>Your network</b><br>2nd-degree path</div>
+    <div class="node small n3"><b>Buyer fit</b><br>Strong ICP match</div>
+    <div class="node small n4"><b>Right timing</b><br>Signal this week</div>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="wrap who-grid">
+  <div class="copy">
+    <div class="kicker">Who we are</div><h2>Built for people who sell through relationships</h2>
+    <p>BlueChimp is a relationship intelligence platform for B2B sales teams, consultants, agencies and founders. It shows which companies are researching solutions like yours, who in your network can introduce you, and what to say when you reach out.</p>
+    <p>BlueChimp is built and operated by Findable LLC. We started as a small tool our founder built to find work through warm introductions instead of cold applications. When other people asked to use it, we turned it into a product for anyone who sells through relationships.</p>
+  </div>
+  <aside class="facts">
+    <div class="facts-head">Company facts</div>
+    <div class="fact"><span>Company</span><b>BlueChimp</b></div>
+    <div class="fact"><span>Legal name</span><b>Findable LLC</b></div>
+    <div class="fact"><span>Founded</span><b class="placeholder">[Year]</b></div>
+    <div class="fact"><span>Founder</span><b>Israel Kloss</b></div>
+    <div class="fact"><span>Headquarters</span><b class="placeholder">[City, State, Country]</b></div>
+    <div class="fact"><span>Address</span><b class="placeholder">[Verify before publishing]</b></div>
+    <div class="fact"><span>Products</span><b>BlueChimp, InsiderChimp</b></div>
+    <div class="fact"><span>Contact</span><b>support@blue-chimp.com</b></div>
+  </aside>
+</div>
+</section>
+
+<section class="mission">
+<div class="wrap">
+  <div class="section-head"><div class="kicker">Our mission</div><h2>Make every first sales conversation a warm one.</h2></div>
+  <div class="mission-quote">Connect real buying intent to the people who can open the door.</div>
+  <div class="value-grid">
+    <article class="value"><div class="num">01</div><h3>Trust over volume</h3><p>One warm introduction beats a hundred cold emails. BlueChimp helps you send fewer, better messages.</p></article>
+    <article class="value"><div class="num">02</div><h3>Timing that matters</h3><p>Intent data tells you when an account is in-market, so you reach out while the need is real.</p></article>
+    <article class="value"><div class="num">03</div><h3>Your data stays yours</h3><p>Your LinkedIn network stays private, is never shared, and your account data remains exportable.</p></article>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+  <div class="section-head"><div class="kicker">What we build</div><h2>One platform, from buying signal to warm introduction</h2></div>
+  <div class="product-grid">
+    <article class="product"><div class="picon">↗</div><h3>Warm Lead Finder</h3><p>Matches buying intent against your LinkedIn network to find accounts where you already have a path in.</p><a href="/how-it-works">Explore Warm Lead Finder →</a></article>
+    <article class="product"><div class="picon">AI</div><h3>AI Deal Radar</h3><p>Real-time alerts when accounts in your ideal customer profile hit high-intent thresholds.</p><a href="/ai-deal-radar">Explore AI Deal Radar →</a></article>
+    <article class="product"><div class="picon">◎</div><h3>Opportunity Monitor</h3><p>Watches your target account list and emails you when accounts start surging.</p><a href="/intent-monitoring">Explore Monitor →</a></article>
+    <article class="product"><div class="picon">4×</div><h3>Decision-Maker Throwdown</h3><p>Four AI models debate who really owns the budget at your target account.</p><a href="/throwdown">See the Throwdown →</a></article>
+    <article class="product"><div class="picon">{ }</div><h3>BlueChimp for AI Agents</h3><p>A remote MCP server with 67 tools so Claude and other AI agents can use BlueChimp data.</p><a href="/developers">Explore Developers →</a></article>
+    <article class="product"><div class="picon">✓</div><h3>Done For You</h3><p>Our team builds your warm lead workflow for you in as little as 14 days.</p><a href="/done-for-you">See Done For You →</a></article>
+  </div>
+</div>
+</section>
+
+<section class="story">
+<div class="wrap story-grid">
+  <div class="portrait"><span>Replace with founder-headshot.jpeg</span></div>
+  <div>
+    <div class="kicker" style="color:var(--cyan)">Our story</div>
+    <h2>Why BlueChimp exists</h2>
+    <p>In 2025, founder Israel Kloss spent nine months looking for work: roughly 700 applications, four interviews and no offers. So he changed his approach. He looked for companies showing real signs of need, then used his LinkedIn network to find a warm way in.</p>
+    <p>He built a small tool to do it, and it worked. Soon other people asked to use the same tool, and sales leaders asked for a version for their teams. That tool became BlueChimp.</p>
+    <a class="textlink" href="/founders-story">Read the full Founder's Story →</a>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+  <div class="section-head"><div class="kicker">Leadership</div><h2>The people behind BlueChimp</h2><p class="sub">A focused team building a better way to turn relationships into revenue.</p></div>
+  <div class="leader-grid">
+    <article class="leader">
+      <div class="avatar">Founder headshot<br>Israel Kloss</div>
+      <div><span class="role">FOUNDER</span><h3>Israel Kloss</h3><p>Israel founded BlueChimp after building a warm-introduction system to find his own next role. <span class="placeholder">[Add verified prior experience]</span></p><a class="textlink" href="/author/israel-kloss">Author profile →</a><br><span class="placeholder">[Verified LinkedIn URL]</span></div>
+    </article>
+    <article class="leader" style="border-style:dashed">
+      <div class="avatar">Optional team member</div>
+      <div><span class="role">ONLY IF CONFIRMED</span><h3 class="placeholder">[Team member]</h3><p class="placeholder">[Role and approved one-line bio]</p><span class="placeholder">[LinkedIn URL]</span></div>
+    </article>
+  </div>
+</div>
+</section>
+
+<section class="data">
+<div class="wrap data-grid">
+  <div>
+    <div class="kicker">How our data works</div><h2>Multiple signals. One clearer picture.</h2>
+    <p class="sub">BlueChimp combines intent signals from G2, Apollo, Bombora, Explorium and SalesIntel with proprietary LinkedIn signals. Sources are merged and de-duplicated, then accounts are scored by buying intent, relationship strength and likely buyer fit.</p>
+    <div class="formula"><b>Buying intent</b><i>+</i><b>Relationship strength</b><i>+</i><b>Buyer fit</b></div>
+    <div style="margin-top:25px"><a class="btn primary" href="/data-methodology">See our full data methodology →</a></div>
+  </div>
+  <div class="source-cloud">
+    <div class="source-pill">G2</div><div class="source-pill">Apollo</div><div class="source-pill">Bombora</div><div class="source-pill">Explorium</div><div class="source-pill">SalesIntel</div><div class="source-pill">LinkedIn Signals</div>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+  <div class="section-head"><div class="kicker">Security & privacy</div><h2>Built with privacy in mind</h2></div>
+  <div class="security-grid">
+    <article class="security-card"><div class="shield">✓</div><h3>Encrypted & access-controlled</h3><p>Authenticated access, role-based permissions, encryption in transit and row-level security.</p><a href="/security">Explore security →</a></article>
+    <article class="security-card"><div class="shield">0</div><h3>Zero-storage file uploads</h3><p>CSV files you upload are processed in your browser and never stored on BlueChimp servers.</p></article>
+    <article class="security-card"><div class="shield">◉</div><h3>Your network stays private</h3><p>Your LinkedIn connections are never shared and your account data stays exportable.</p><a href="/privacy">Read our privacy policy →</a></article>
+  </div>
+</div>
+</section>
+
+<section class="recognition">
+<div class="wrap">
+  <div class="kicker">Partners & recognition</div><h2>Connected to the B2B ecosystem</h2>
+  <p class="sub">Partner and featured-on logos should use approved official brand assets before publishing.</p>
+  <div class="logo-row">
+    <div class="brand partner">Apollo.io</div><div class="brand partner">Seamless.ai</div>
+    <div class="brand">Product Hunt</div><div class="brand">Startup Fame</div><div class="brand">Fazier</div><div class="brand">Twelve Tools</div>
+  </div>
+</div>
+</section>
+
+<section class="cta">
+<div class="wrap">
+  <div class="cta-box">
+    <div><div class="kicker" style="color:var(--cyan)">Find the warm path</div><h2>Your next deal is already in your network</h2><p>See the accounts that are ready to buy and the people who can introduce you.</p></div>
+    <div class="actions" style="margin:0;position:relative;z-index:2"><a class="btn light" href="/demo-signup">Book a Demo →</a><a class="btn darkoutline" href="/contact">Contact Us</a></div>
+  </div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap footer"><div class="logo" style="font-size:18px">blue<span>chimp</span></div><div>How It Works · About BlueChimp · Data Methodology · Security · Privacy</div></div>
+</footer>
+
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"AboutPage",
+ "name":"About BlueChimp",
+ "url":"https://www.blue-chimp.com/about",
+ "mainEntity":{
+   "@type":"Organization",
+   "name":"BlueChimp",
+   "legalName":"Findable LLC",
+   "url":"https://www.blue-chimp.com/",
+   "founder":{"@type":"Person","name":"Israel Kloss"},
+   "email":"support@blue-chimp.com"
+ }
+}
+</script>
+</body>
+</html>
